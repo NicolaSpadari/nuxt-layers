@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"private": true,
 	"packageManager": "pnpm@9.4.0",
-	"description": "Nuxt reusable layers",
+	"description": "My Nuxt 3 reusable layers",
 	"author": "Nicola Spadari",
 	"engines": {
 		"node": ">=20"
