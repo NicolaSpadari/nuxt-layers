@@ -1,4 +1,4 @@
-export const usePersonal = () => {
+export const usePersonalDetails = () => {
 	const name = "Nicola";
 	const surname = "Spadari";
 	const email = "spadari.nicola@gmail.com";
