@@ -2,7 +2,7 @@ export default defineNuxtConfig({
 	modules: [
 		"@vueuse/nuxt",
 		"@unocss/nuxt",
-		"@nuxt/eslint",
+		"@nuxt/eslint"
 	],
 	app: {
 		head: {

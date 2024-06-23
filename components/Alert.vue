@@ -1,24 +1,24 @@
 <template>
-    <Transition name="alert">
-        <div
-            v-if="visible"
-            fixed bottom-16 right-16 flex items-center justify-between p-4 border rounded min-w-sm text-green-700 border-green-900 border-opacity-10 bg-green-100
-            role="alert"
-        >
-            <p text-sm font-medium>
-                {{ message }}
-            </p>
+	<Transition name="alert">
+		<div
+			v-if="visible"
+			fixed bottom-16 right-16 min-w-sm flex items-center justify-between border border-green-900 border-opacity-10 rounded bg-green-100 p-4 text-green-700
+			role="alert"
+		>
+			<p text-sm font-medium>
+				{{ message }}
+			</p>
 
-            <button type="button" @click="closeAlert()">
-                <span sr-only> Close </span>
-                <i-heroicons-outline-x w-4 h-4 />
-            </button>
-        </div>
-    </Transition>
+			<button type="button" @click="closeAlert()">
+				<span sr-only> Close </span>
+				<i-heroicons-outline-x h-4 w-4 />
+			</button>
+		</div>
+	</Transition>
 </template>
 
 <script lang="ts" setup>
-    const { visible, message, closeAlert } = useAlert();
+	const { visible, message, closeAlert } = useAlert();
 </script>
 
 <style scoped>
