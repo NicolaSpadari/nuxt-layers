@@ -4,3 +4,4 @@ packages:
   - layer-alerts
   - layer-modals
   - layer-layouts
+  - layer-cache
