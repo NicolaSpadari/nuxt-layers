@@ -9,7 +9,6 @@
 	"engines": {
 		"node": ">=20"
 	},
-	"main": "index.js",
 	"scripts": {
 		"lint": "eslint . --fix"
 	},
