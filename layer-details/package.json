@@ -1,10 +1,10 @@
 {
-	"name": "nuxt-layers",
+	"name": "nuxt-layer-details",
 	"type": "module",
 	"version": "1.0.0",
 	"private": true,
 	"packageManager": "pnpm@9.4.0",
-	"description": "Nuxt reusable layers",
+	"description": "Nuxt layer details",
 	"author": "Nicola Spadari",
 	"engines": {
 		"node": ">=20"
