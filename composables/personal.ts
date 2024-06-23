@@ -1,4 +1,4 @@
-export const useConstants = () => {
+export const usePersonal = () => {
 	const name = "Nicola";
 	const surname = "Spadari";
 	const email = "spadari.nicola@gmail.com";
@@ -12,4 +12,4 @@ export const useConstants = () => {
 		github,
 		linkedin
 	};
-}
+};
